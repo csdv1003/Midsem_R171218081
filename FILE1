@@ -3,3 +3,7 @@ FILE1',FILE2',FILE3
 
 //////////FILE 1, SECOND EDIT//////////
 FILE1'',FILE2',FILE3' => THIRD COMMIT
+
+//////////FILE 1, THIRD EDIT//////////
+FILE1''',FILE2'',FILE3'' => FOURTH COMMIT
+
