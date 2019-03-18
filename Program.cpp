@@ -10,14 +10,29 @@ class Sum{
                 k = y;
         }
         int putdata(){
+		
 		return (i+k);
 	}
 };
+class Sub{
+	public:
+		int p,q;;
+		void getdata(int x,int y){
+                p = x;
+		q = y;
+		}
+	        int putdata(){
+			return (2-5); 
 int main(){
 
 	Sum s;
+	Sub sb;
 	s.getdata(2,5);
-	cout<<"The sum of 2 and 5 is: "<<s.putdata();
+	sb.getdata(2,5);
+
+	cout<<"The sum of 2 and 5 is: "<<s.putdata()<<endl;
+	cout<<"The Substraction of 2 and 5 is: "<<sb.putdata()<<endl;
+
 	return 0;
 }
 ~
