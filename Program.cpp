@@ -23,16 +23,34 @@ class Sub{
 		}
 	        int putdata(){
 			return (2-5); 
+		}
+
+};		
+
+class Mul{
+	public:
+		int n,v;
+		void getdata(int x,int y){
+			n = x;
+			v = y;
+		}
+		int putdata(){
+			return n*v;
+		}
+
+};
 int main(){
 
 	Sum s;
 	Sub sb;
+	Mul m;
 	s.getdata(2,5);
 	sb.getdata(2,5);
+        m.getdata(2,5);
 
 	cout<<"The sum of 2 and 5 is: "<<s.putdata()<<endl;
 	cout<<"The Substraction of 2 and 5 is: "<<sb.putdata()<<endl;
-
+        cout<<"The Multiplication of 2 nad 5 is: "<<m.putdata()<<endl;
 	return 0;
 }
 ~
